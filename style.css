@@ -1,0 +1,19 @@
+#box{
+    background-color: rgb(141, 225, 240);
+    height: 300px;
+    width: 700px;
+    visibility: hidden;
+}
+body{
+    background-color: rgb(155, 140, 197);
+}
+
+
+#box.show{
+    visibility: visible;
+}
+
+.Close_Popup{
+    margin-top: 50%;
+    margin-left: 97%;
+}
