@@ -1,25 +1,36 @@
 #box{
-    background-color: rgb(141, 225, 240);
+    background-color:   rgb(231, 200, 160);
     height: 300px;
     width: 700px;
     visibility: hidden;
-}
-body{
-    background-color: rgb(155, 140, 197);
+    border-color: black solid;
+    box-shadow: 20ch;
+    border-radius: 50px;
 }
 .clicks{
-    background-color: bisque;
+    background-color:  bisque;
     text-decoration-color: black;
     box-shadow: 2ch;
     border-radius: 10px;
     padding: 7px;
 }
+body{
+    background-color: rgb(155, 140, 197);
+}
+
 
 #box.show{
     visibility: visible;
 }
 
 .Close_Popup{
-    margin-top: 50%;
-    margin-left: 97%;
+    margin-top: 70%;
+    margin-left: 95%;
+}
+#sub{
+    margin-top: 20px;
+    background-color: bisque;
+    border-color: black;
+    border-radius: 10px;
+    padding: 7px;
 }
